@@ -1,0 +1,460 @@
+/*******************************
+* General
+*******************************/
+@font-face {
+    font-family: AboRas;
+    src: url(./fonts/aboras.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../IMG/background.jpg') top left no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    body {
+        height: auto; /* Set to auto for dynamic height */
+        background-size: cover;
+        background-position: center top;
+    }
+    .T1{
+        margin: 1rem;
+    }
+    .backLogo {
+       max-width:100%;
+       padding-right: 60% important;
+       width: 100%;
+       margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    #startnav nav{
+        max-width: 100% !important;
+        box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    width: 200%;
+        margin-left: auto;
+        margin-right: auto
+    }
+    
+    #navli1{
+        display: inline !important; 
+        box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    width: 200%;
+        margin-left: auto;
+        margin-right: auto
+
+    }
+
+
+
+    .imgnews img,
+    .imghome img,
+    .video,
+    .videonews {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #aboutpubg {
+        width: 200%;
+        margin-left: auto;
+        margin-right: auto
+        
+
+    }
+
+
+
+    #container{
+        display: inline !important; 
+    }
+    
+    
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        height: auto; /* Set to auto for dynamic height */
+        background-size: cover;
+        background-position: center top;
+    }
+    .T1{
+        margin: 1rem;
+    }
+    .backLogo {
+       max-width:100%;
+       padding-right: 60% important;
+       width: 100%;
+       margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    #startnav nav{
+        max-width: 100% !important;
+        box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    width: 200%;
+        margin-left: auto;
+        margin-right: auto
+    }
+    
+    #navli1{
+        display: inline !important; 
+        box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    width: 200%;
+        margin-left: auto;
+        margin-right: auto
+
+    }
+
+
+
+    .imgnews img,
+    .imghome img,
+    .video,
+    .videonews {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #aboutpubg {
+        width: 200%;
+        margin-left: auto;
+        margin-right: auto
+        
+
+    }
+
+
+
+    #container{
+        display: inline !important; 
+    }
+    
+    
+}
+
+
+
+
+    /* #home */
+    .backLogo img{
+        width: 6.5%;
+    }
+
+h2 { /*header*/
+    text-align: center; /** ** אֶמצַע***/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    color: #ffffffb3;
+    font-weight: lighter;
+    padding: 2%; /** ** מכל כיוון*/
+    background: rgba(51, 51, 51, 0.6);
+}
+
+
+h1{ /*LAND, LOOT, SURVIVE!*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90rm;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    background: rgba(51, 51, 51, 0.4);
+    margin-left: 35rem;
+margin-right: 35rem;
+margin-bottom: 5rem;
+margin-top: 4rem;
+
+}
+
+#aboutpubg{ /*Paragraph about Pubg*/
+        font-size: 1.5rem;
+        color: #ffffff;
+        padding-bottom: 8rem;
+        border: 8px solid #c206c5b3;
+        width: 60%;
+    background: rgba(51, 51, 51, 0.6);
+    
+    }
+.video {
+    width: fit-content;
+    margin-left: auto;
+    
+
+  }
+
+
+h4{ /*Play PUBG: BATTLEGROUNDS for free*/
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;  /** ** מכל כיוון*/
+    color: #fdfdfd;
+}
+
+h5{ /*News*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90rm;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #ffffff;
+}
+
+
+  .imghome img { /*IMG HOME */
+    margin-bottom: 4rem;
+    margin-top: 2.5rem;
+
+  }
+
+
+ 
+  
+   
+    /* #home */
+    
+
+
+
+
+
+/* #endregion */
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #c206c5b3;
+    text-align: center;
+}
+
+
+ .startnav nav{
+a:link,
+a:visited{
+    color: rgb(247, 247, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none; /** ** ------ text**/
+ }
+ a:hover{
+    color:rgba(224, 0, 30, 0.702);
+    transition:border 5s;
+    transition:color 2s;
+}
+#navli1 li{
+    display: inline; /** ** שורה אחד****/
+    margin-right: 2%;     /** **//
+}
+}
+
+
+
+.twonav nav{
+a:link,
+a:visited{
+    color: rgb(247, 247, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none; /** ** ------ text**/
+ }
+a:hover{
+    color:#ff00ee;
+    transition:border 5s;
+    transition:color 2s;
+}
+#navli2 li{
+    display: inline; /** ** שורה אחד****/
+    margin-right: 2%;
+}
+}
+
+
+
+
+.endnav nav{
+border: 30px solid rgba(51, 51, 51, 0.4);
+width: 100%;
+background: rgba(51, 51, 51, 0.4);
+
+ #navli3 li{
+    display: inline; /** ** שורה אחד****/
+    margin-right: 4%;
+
+}
+#navli3 li a:link,#navli3 li a:visited{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+}
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+ /* contact us */
+
+.koko{ /* #Paragraph about contast us */
+color: #fefefe;
+  font-size: 1.5rem; 
+
+}
+
+
+
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+#wrapper /* #Show page */
+{
+    margin-top: 3.5rem;
+  width:100%;
+}
+
+
+#container {  /* #Limit each other */
+  display: flex;
+
+}
+
+
+#container > div
+{
+
+  flex:auto;
+  text-align:left;
+font-size: 1.8rem;
+  color: #ffffff;
+padding-top: 2rem;
+padding-bottom: 2.5rem;
+  border: 4px solid #963698b3;
+background: rgba(51, 51, 51, 0.5);
+margin-bottom: 4rem;  /* #After between nav3 */
+
+}
+
+/*  end contact us */
+    
+
+
+
+
+
+      /****************news************/     
+         
+      .imgnews img {
+          width: 50%;
+}
+
+         
+           #news1{
+            margin-left: auto;
+            text-align: left;
+            font-size: 1.5rem;
+            color: #ffffff;
+            padding-bottom: 6rem;
+            border: 18px solid #963698b3;
+             width: 60%;
+          background: rgba(51, 51, 51, 0.7);
+           }
+           #news2{
+            margin-left: auto;
+            text-align: left;
+            font-size: 1.5rem;
+            color: #ffffff;
+            padding-bottom: 6rem;
+            border: 18px solid #963698b3;
+          width: 60%;
+          background: rgba(51, 51, 51, 0.7);
+           }
+           #news3{
+            margin-left: auto;
+            text-align: left;
+            font-size: 1.5rem;
+            color: #ffffff;
+            padding-bottom: 6rem;
+            border: 18px solid #963698b3;
+          width: 60%;
+          background: rgba(51, 51, 51, 0.7);
+          margin-bottom: 4rem;
+
+           }
+
+          
+
+          /**Accessibility home **/
+
+          #access{
+            text-align: right;
+            font-size: 1.5rem;
+            color: #ffffff;
+            padding-bottom: 6rem;
+            border: 8px solid #ffffffb3;
+        width: 100%;
+        background: rgba(51, 51, 51, 0.6);
+        
+
+        }
+        
+
+      
+      
+
+
+
+        
+
+
+
+        
+
+        
+
+
+
+
+
+
+
+
+
+        
+        
